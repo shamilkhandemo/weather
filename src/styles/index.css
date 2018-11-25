@@ -1,0 +1,84 @@
+
+
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.flex-center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.description {
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+  margin-top: 10px;
+  border: none;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  padding: 0px 40px;
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+}
+
+.button:hover { 
+    border: none;
+    background: rgb(53, 167, 110);
+ }
+
+.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.input {
+    border: 1px #eee solid;
+    border-radius: 3px;
+    height: 40px;
+}
+
+#form input {
+    margin-top: 10px;
+}
+
+#form input::-webkit-input-placeholder {
+    color: #333;
+    font-style: italic;
+}
+#form input:-moz-placeholder {
+    color: #333;
+    font-style: italic;
+}
+
+
+#form button {
+    margin-top: 10px;
+}
+
+
+#addCity__input {
+    width: 300px;
+    color: rgb(33,147,90);
+}
